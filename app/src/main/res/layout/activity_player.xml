@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PlayerActivity">
 
-    <!-- Back Button (Top Left) -->
+    
     <ImageButton
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="16dp" />
 
-    <!-- Album Art ImageView -->
+    
     <ImageView
         android:id="@+id/albumArt"
         android:layout_width="200dp"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="32dp" />
 
-    <!-- Song Title TextView -->
+    
     <TextView
         android:id="@+id/songTitle"
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
-    <!-- Artist Name TextView -->
+    
     <TextView
         android:id="@+id/artistName"
         android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp" />
 
-    <!-- Album Name TextView -->
+    
     <TextView
         android:id="@+id/albumName"
         android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="4dp" />
 
-    <!-- SeekBar (Song Progress Bar) -->
+    
     <SeekBar
         android:id="@+id/songProgressBar"
         android:layout_width="0dp"
@@ -79,7 +79,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- Music Control Buttons -->
+    
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/musicControlsLayout"
         android:layout_width="0dp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp">
 
-        <!-- Previous Button -->
+        
         <ImageButton
             android:id="@+id/btnPrevious"
             android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_margin="8dp" />
 
-        <!-- Play/Pause Button (Center) -->
+        
         <ImageButton
             android:id="@+id/btnPlayPause"
             android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_margin="8dp" />
 
-        <!-- Skip Button -->
+        
         <ImageButton
             android:id="@+id/btnSkip"
             android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Shuffle and Repeat Buttons -->
+    
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/extraControlsLayout"
         android:layout_width="0dp"
@@ -138,7 +138,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp">
 
-        <!-- Shuffle Button -->
+        
         <ImageButton
             android:id="@+id/btnShuffle"
             android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_margin="8dp" />
 
-        <!-- Repeat Button -->
+        
         <ImageButton
             android:id="@+id/btnRepeat"
             android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Volume Control Slider -->
+   
     <SeekBar
         android:id="@+id/volumeControl"
         android:layout_width="0dp"
